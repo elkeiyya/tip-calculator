@@ -4,7 +4,7 @@ export default function Button({
 }) {
   return (
     <button
-      id={index}
+      key={index}
       className="text-white bg-veryDarkCyan rounded-md hover:bg-strongCyan hover:text-veryDarkCyan"
     >
       {percent}%
